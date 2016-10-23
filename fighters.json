@@ -1,0 +1,18 @@
+{
+"fighters": [
+    {
+        "firstName": "Diego",
+        "lastName": "Corrales",
+        "country": "usa",
+        "weight": 174,
+        "stance": "Orthodox",
+        "wins": "40",
+        "loses": "5"
+    },
+
+    {
+        "firstName": "Mike"
+    },
+]
+}
+
