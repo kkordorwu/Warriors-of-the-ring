@@ -24,14 +24,19 @@
 
 </head>
 
+<!-- Controller controls the tag  that the ng attribute is in -->
+
 <body ng-controller="fightersControllers">
 
 	<div class="navbar navbar-default">
 
 		<h1>Warriors Of The Ring</h1>
 		<div id="searchBar">
+
+			<!-- Used ng-model attribute to control the target scope veriable-->
+
 			<form>
-				<input type="text" name="search" placeholder="Search..">
+				<input ng-model="target" type="text" name="search" placeholder="Search..">
 			</form>
 		</div>
 	</div>
@@ -41,8 +46,15 @@
 		<div class="col-md-2">
 			<h4>Fighters</h4>
 
-			<div ng-repeat="fighter in fighters">
-				{{ fighter.firstName }}
+			<!-- ng repeat-repeats whatever tag it is located within-->
+			<!-- Used the target scope veriable created as a filter parameter. -->
+
+			<div ng-repeat="fighter in fighters | filter: target">
+				{{ fighter.firstName }} {{ fighter.lastName }}
+
+				<!-- img ng-src is how I linked the image-->
+
+				<img ng-src="{{ fighter.pictureLink }}"></img>
 			</div>
 		</div>
 
