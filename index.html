@@ -51,10 +51,11 @@
 
 			<div ng-repeat="fighter in fighters | filter: target">
 				{{ fighter.firstName }} {{ fighter.lastName }}
+				<button ng-click="updatePopup()">update</button>
 
 				<!-- img ng-src is how I linked the image-->
 
-				<img ng-src="{{ fighter.pictureLink }}"></img>
+				<!--<img ng-src="{{ fighter.pictureLink }}"></img>-->
 			</div>
 		</div>
 
