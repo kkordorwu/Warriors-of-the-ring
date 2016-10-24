@@ -51,6 +51,9 @@
 
 			<div ng-repeat="fighter in fighters | filter: target">
 				{{ fighter.firstName }} {{ fighter.lastName }}
+
+				<!--Use ng click to creat update button for each fighter-->
+				
 				<button ng-click="updatePopup()">update</button>
 
 				<!-- img ng-src is how I linked the image-->
