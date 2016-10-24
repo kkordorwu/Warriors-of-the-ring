@@ -49,12 +49,16 @@
 			<!-- ng repeat-repeats whatever tag it is located within-->
 			<!-- Used the target scope veriable created as a filter parameter. -->
 
-			<div ng-repeat="fighter in fighters | filter: target">
-				{{ fighter.firstName }} {{ fighter.lastName }}
+			<div class="fighters" ng-repeat="fighter in fighters | filter: target">
 
-				<!--Use ng click to creat update button for each fighter-->
-				
-				<button ng-click="updatePopup()">update</button>
+				<p>{{ fighter.firstName }}</p>
+				<p>{{ fighter.lastName }}</p>
+				<p>{{ fighter.homeTown }}</p>
+				<p>{{ fighter.weight }}</p>
+				<p>{{ fighter.weightClass }}</p>
+				<p>{{ fighter.stance }}</p>
+				<p>{{ fighter.wins }}</p>
+				<p>{{ fighter.loses }}</p>
 
 				<!-- img ng-src is how I linked the image-->
 
@@ -64,12 +68,28 @@
 
 		<div class="col-md-4">
 			<h4>Stats</h4>
-			<p>hello world hello world hello world hello world hello world hello world hello world hello world hello world.</p>
+
+<!-- Allows user to update fighters info-->
+
+			<form>
+				<p>From:<input type="text" ng-model="location"></p>
+				<p>Height:<input type="text" ng-model="tall"></p>
+				<p>Weight:<input type="text" ng-model="fat"></p>
+				<p>Stance:<input type="text" ng-model="up"></p>
+
+				<!--Use ng click to creat update button for each fighter-->
+				<button ng-click="updatePopup()">update</button>
+
+			</form>
 		</div>
 
 		<div class="col-md-4">
 			<h4>Fights</h4>
-			<p>hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world</p>
+
+			<!-- where dates can be inputted-->
+
+			<input type="date">
+
 			<iframe width="200" height="100" src="https://www.youtube.com/embed/6Glyrl0-cSk" frameborder="0" allowfullscreen>
 			</iframe>
 		</div>

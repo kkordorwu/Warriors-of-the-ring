@@ -1,14 +1,20 @@
 angular.module("fighters")
     .controller("fightersControllers", function ($scope) {
 
+        $scope.location=null;
+        $scope.tall=null;
+        $scope.fat=null;
+        $scope.up=null;
+
 // This how fighters are listed.
 
         $scope.target="";
         $scope.fighters = [{
             "firstName": "Diego",
             "lastName": "Corrales",
-            "homeTown": "Sacramento usa",
+            "homeTown": "Sacramento Ca",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5,
@@ -16,8 +22,9 @@ angular.module("fighters")
         }, {
             "firstName": "Bernard",
             "lastName": "Hopkins",
-            "homeTown": "Philadelphia usa",
+            "homeTown": "Philadelphia",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
@@ -26,30 +33,34 @@ angular.module("fighters")
             "lastName": "Marquez",
             "homeTown": "Mexico",
             "weight": 174,
+            "weightClass":"Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
         }, {
             "firstName": "Mike",
             "lastName": "Tyson",
-            "homeTown": "new York city",
+            "homeTown": "New York city",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
         }, {
             "firstName": "Buakaw",
             "lastName": "Banchamek",
-            "homeTown": "thaiLand",
+            "homeTown": "Thailand",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
         }, {
             "firstName": "Saenchai",
-            "homeTown": "thaiLand",
+            "homeTown": "Thailand",
             "lastName": "PK",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
@@ -58,6 +69,7 @@ angular.module("fighters")
             "lastName": "Eubank",
             "homeTown": "Dulwich",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
@@ -66,8 +78,10 @@ angular.module("fighters")
             "lastName": "Kobayashi",
             "homeTown": "Japan",
             "weight": 174,
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
         }]
     });
+
