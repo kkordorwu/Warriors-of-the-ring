@@ -4,7 +4,7 @@ angular.module("fighters")
         $scope.location=null;
         $scope.tall=null;
         $scope.fat=null;
-        $scope.up=null;
+        $scope.position=null;
 
 // This how fighters are listed.
 
