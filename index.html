@@ -24,7 +24,7 @@
 
 </head>
 
-<!-- Controller controls the tag  that the ng attribute is in -->
+<!-- Controller controls the tag  that the ng attribute is in ( which is the body) -->
 
 <body ng-controller="fightersControllers">
 
@@ -72,6 +72,7 @@
 			<!-- Allows user to update fighters info-->
 
 			<form>
+
 				<p>From:<input type="text" ng-model="location"></p>
 				<p>Height:<input type="text" ng-model="tall"></p>
 				<p>Weight:<input type="text" ng-model="fat"></p>
@@ -90,7 +91,10 @@
 
 			<!-- where dates can be inputted-->
 
-			<input type="date">
+			<input type="date" ng-model="calender" />
+			<button ng-click="date" >submit</button>
+			
+			
 
 			<iframe width="200" height="100" src="https://www.youtube.com/embed/6Glyrl0-cSk" frameborder="0" allowfullscreen>
 			</iframe>
@@ -100,6 +104,7 @@
 
 	<script src="./app.js" type="text/javascript"></script>
 	<script src="fightersController/fightersControllers.js"></script>
+
 </body>
 
 </html>

@@ -6,10 +6,8 @@ angular.module("fighters")
         $scope.fat = null;
         $scope.position = null;
 
-        $scope.button = 'Hello, World!';
-        $scope.DateButton = function (button) {
-            $window.alert(button);
-        };
+        $scope.calender = "mm/dd/yyyy";
+        alert($scope.calender);
 
         // This how fighters are listed.
 
