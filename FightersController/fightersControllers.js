@@ -6,8 +6,8 @@ angular.module("fighters")
         $scope.fat = null;
         $scope.position = null;
 
-        $scope.calender = "mm/dd/yyyy";
-        alert($scope.calender);
+        $scope.calendar = "mm/dd/yyyy";
+        alert($scope.calendar);
 
         // This how fighters are listed.
 
