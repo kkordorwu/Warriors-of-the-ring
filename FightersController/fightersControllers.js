@@ -1,14 +1,19 @@
 angular.module("fighters")
     .controller("fightersControllers", function ($scope) {
 
-        $scope.location=null;
-        $scope.tall=null;
-        $scope.fat=null;
-        $scope.position=null;
+        $scope.location = null;
+        $scope.tall = null;
+        $scope.fat = null;
+        $scope.position = null;
 
-// This how fighters are listed.
+        $scope.button = 'Hello, World!';
+        $scope.DateButton = function (button) {
+            $window.alert(button);
+        };
 
-        $scope.target="";
+        // This how fighters are listed.
+
+        $scope.target = "";
         $scope.fighters = [{
             "firstName": "Diego",
             "lastName": "Corrales",
@@ -18,7 +23,7 @@ angular.module("fighters")
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5,
-            "pictureLink" : "http://static.boxrec.com/thumb/f/f8/DiegoCorrales.jpg/280px-DiegoCorrales.jpg"
+            "pictureLink": "http://static.boxrec.com/thumb/f/f8/DiegoCorrales.jpg/280px-DiegoCorrales.jpg"
         }, {
             "firstName": "Bernard",
             "lastName": "Hopkins",
@@ -33,7 +38,7 @@ angular.module("fighters")
             "lastName": "Marquez",
             "homeTown": "Mexico",
             "weight": 174,
-            "weightClass":"Middle",
+            "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5
@@ -84,4 +89,3 @@ angular.module("fighters")
             "loses": 5
         }]
     });
-
