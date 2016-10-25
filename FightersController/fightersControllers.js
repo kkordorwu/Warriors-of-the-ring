@@ -6,8 +6,18 @@ angular.module("fighters")
         $scope.fat = null;
         $scope.position = null;
 
-        $scope.calendar = "mm/dd/yyyy";
-        alert($scope.calendar);
+        $scope.upDate = function () {
+            alert($scope.location + $scope.tall + $scope.lbs + $scope.position);
+        }
+
+        // Shows date alert once date is entered.
+
+        $scope.calendar = "NewFightDate";
+
+        $scope.submitDate = function () {
+            alert($scope.calendar);
+
+        }
 
         // This how fighters are listed.
 

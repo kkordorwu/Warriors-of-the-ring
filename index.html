@@ -75,11 +75,12 @@
 
 				<p>From:<input type="text" ng-model="location"></p>
 				<p>Height:<input type="text" ng-model="tall"></p>
-				<p>Weight:<input type="text" ng-model="fat"></p>
+				<p>Weight:<input type="text" ng-model="lbs"></p>
 				<p>Stance:<input type="text" ng-model="position"></p>
 
+				<button ng-click="upDate()">Date</button>
+
 				<!--Use ng click to creat update button for each fighter-->
-				<button ng-click="upDatePopUp()">update</button>
 
 			</form>
 
@@ -87,14 +88,14 @@
 		</div>
 
 		<div class="col-md-4">
-			<h4>Fights</h4>
+			<h4>Fight Date</h4>
 
 			<!-- where dates can be inputted-->
 
 			<input type="date" ng-model="calendar" />
-			<button ng-click="date" >submit</button>
-			
-			
+			<button ng-click="submitDate()">Submit Date</button>
+
+
 
 			<iframe width="200" height="100" src="https://www.youtube.com/embed/6Glyrl0-cSk" frameborder="0" allowfullscreen>
 			</iframe>
