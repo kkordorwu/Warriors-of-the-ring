@@ -6,6 +6,9 @@ angular.module("fighters")
         $scope.fat = null;
         $scope.position = null;
 
+
+// This callls stats in alert box.
+
         $scope.upDate = function () {
             alert($scope.location + $scope.tall + $scope.lbs + $scope.position);
         }
