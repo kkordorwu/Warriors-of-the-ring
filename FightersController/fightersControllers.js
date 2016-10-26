@@ -7,7 +7,7 @@ angular.module("fighters")
         $scope.position = null;
 
 
-// This callls stats in alert box.
+        // This callls stats in alert box.
 
         $scope.upDate = function () {
             alert($scope.location + $scope.tall + $scope.lbs + $scope.position);
@@ -34,7 +34,7 @@ angular.module("fighters")
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5,
-            "pictureLink": "http://static.boxrec.com/thumb/f/f8/DiegoCorrales.jpg/280px-DiegoCorrales.jpg"
+            "pictureLink": "http://static.boxrec.com/thumb/f/f8/DiegoCorrales.jpg/200px-DiegoCorrales.jpg"
         }, {
             "firstName": "Bernard",
             "lastName": "Hopkins",
@@ -43,7 +43,8 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "http://static.boxrec.com/thumb/5/57/Hopkins84044610.jpg/200px-Hopkins84044610.jpg"
         }, {
             "firstName": "Juan",
             "lastName": "Marquez",
@@ -52,7 +53,8 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "http://static.boxrec.com/thumb/7/79/Juan_Manuel_Marquez.jpg/200px-Juan_Manuel_Marquez.jpg"
         }, {
             "firstName": "Mike",
             "lastName": "Tyson",
@@ -61,7 +63,8 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "http://static.boxrec.com/thumb/5/59/Tyson-Spinks139051548.jpg/200px-Tyson-Spinks139051548.jpg"
         }, {
             "firstName": "Buakaw",
             "lastName": "Banchamek",
@@ -70,7 +73,8 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Picbuakaw.jpg/220px-Picbuakaw.jpg"
         }, {
             "firstName": "Saenchai",
             "homeTown": "Thailand",
@@ -79,7 +83,8 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/SaenchaiSorKingstar.jpg/220px-SaenchaiSorKingstar.jpg"
         }, {
             "firstName": "Chris",
             "lastName": "Eubank",
@@ -88,15 +93,17 @@ angular.module("fighters")
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "http://static.boxrec.com/thumb/a/a5/Chris_Eubank.jpg/200px-Chris_Eubank.jpg"
         }, {
-            "firstName": "Masato",
-            "lastName": "Kobayashi",
-            "homeTown": "Japan",
+            "firstName": "Somluck",
+            "lastName": "Kamsing",
+            "homeTown": "Thailand",
             "weight": 174,
             "weightClass": "Middle",
             "stance": "Orthodox",
             "wins": 40,
-            "loses": 5
+            "loses": 5,
+            "pictureLink": "http://zasenko.com/wp-content/uploads/2014/05/Somrak-Khamsing-200x300.jpg"
         }]
     });
