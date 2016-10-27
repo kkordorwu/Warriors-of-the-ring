@@ -7,6 +7,7 @@ angular.module("fighters")
         $scope.position = null;
 
 
+
         // This callls stats in alert box.
 
         $scope.upDate = function () {
@@ -74,7 +75,7 @@ angular.module("fighters")
             "stance": "Orthodox",
             "wins": 40,
             "loses": 5,
-            "pictureLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Picbuakaw.jpg/220px-Picbuakaw.jpg"
+            "pictureLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Picbuakaw.jpg/220px-Picbuakaw.jpg",
         }, {
             "firstName": "Saenchai",
             "homeTown": "Thailand",
