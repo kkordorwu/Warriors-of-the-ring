@@ -66,7 +66,12 @@
 				<!-- img ng-src is how I linked the image to the fighter-->
 
 
+
 				<img class="fighterPicture" ng-src="{{ fighter.pictureLink }}">
+
+				<button ng-click="updateFighter (fighter)">Udate</button>
+				<button ng-click="deleteFighter(fighter)">Delete</button>
+
 			</div>
 		</div>
 
@@ -76,14 +81,14 @@
 			<!-- Allows user to update fighters info-->
 
 			<form>
-				<p>From:<input type="text" ng-model="location"></p>
-				<p>Height:<input type="text" ng-model="tall"></p>
-				<p>Weight:<input type="text" ng-model="lbs"></p>
-				<p>Stance:<input type="text" ng-model="position"></p>
+
+				<p>Home:<input type="text" ng-model="newLocation"></p>
+				<p>Weight:<input type="text" ng-model="newLbs"></p>
+				<p>Stance:<input type="text" ng-model="newStance"></p>
 
 				<!--Use ng click to create update fighters stats for each fighter-->
 
-				<button class="btn btn-default" type="submit" ng-click="upDate()">Submit</button>
+				<button class="btn btn-default" type="submit" ng-click="upDateCurrentFighter()">Submit</button>
 			</form>
 
 

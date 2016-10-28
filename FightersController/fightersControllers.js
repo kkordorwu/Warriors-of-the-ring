@@ -8,13 +8,29 @@ angular.module("fighters")
 
 
 
-        // This callls stats in alert box.
+        // This calls stats in alert box.
 
-        $scope.upDate = function () {
-            alert($scope.location + $scope.tall + $scope.lbs + $scope.position);
+        $scope.updateFighter = function (fighter) {
+            setthecurrentfighter
+
+        //Takes that fighters attribute and popluates them into the update form.
+
         }
 
-        // Shows date alert once date is entered.
+        $scope.deleteFighter = function (fighter) {
+
+        //Sets the current fighter then loops through fighters array to set current fighter using an id. Once found it splices figther out off array.
+        }
+
+        $scope.upDateCurrentFighter = function () {
+            alert($scope.newLocation + $scope.newLbs + $scope.newStance);
+
+        //Make a copy of new info on the fighter. Then loop through the array to find that fighter using fighters id. 
+        //Splicing out the original adding the new.
+        //Splice takes 3 arrguments #1 index #2 how many from the index to get rid of. #3 is opitional and you have the ability.
+        }
+
+        // Shows date in alert once date is entered.
 
         $scope.calendar = "mm/dd/yyyy";
 
