@@ -27,8 +27,9 @@ angular.module("fighters")
 
         $scope.target = "";
         $scope.fighters = [{
-            "firstName": "Diego",
+            "fullName": "Diego",
             "lastName": "Corrales",
+            "fullName": "Diego Corrales",
             "homeTown": "Sacramento Ca",
             "weight": 174,
             "height": "Middle",
@@ -39,6 +40,7 @@ angular.module("fighters")
         }, {
             "firstName": "Bernard",
             "lastName": "Hopkins",
+            "fullName": "Bernard Hopkins",
             "homeTown": "Philadelphia",
             "height": 174,
             "weight": "Middle",
@@ -49,6 +51,7 @@ angular.module("fighters")
         }, {
             "firstName": "Juan",
             "lastName": "Marquez",
+            "fullName": "Juan Marquez",
             "homeTown": "Mexico",
             "weight": 174,
             "height": "Middle",
@@ -59,6 +62,7 @@ angular.module("fighters")
         }, {
             "firstName": "Mike",
             "lastName": "Tyson",
+            "fullName": "Mike Tyson",
             "homeTown": "New York city",
             "weight": 174,
             "height": "Middle",
@@ -69,6 +73,7 @@ angular.module("fighters")
         }, {
             "firstName": "Buakaw",
             "lastName": "Banchamek",
+            "fullName": "Buakaw Banchamek",
             "homeTown": "Thailand",
             "weight": 174,
             "height": "Middle",
@@ -78,8 +83,9 @@ angular.module("fighters")
             "pictureLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Picbuakaw.jpg/220px-Picbuakaw.jpg",
         }, {
             "firstName": "Saenchai",
+            "lastName": "PKSaenchaimuaythaigym",
+            "fullName": "Saenchai PKSaenchaimuaythaigym",
             "homeTown": "Thailand",
-            "lastName": "PK",
             "weight": 174,
             "height": "Middle",
             "stance": "Orthodox",
@@ -89,6 +95,7 @@ angular.module("fighters")
         }, {
             "firstName": "Chris",
             "lastName": "Eubank",
+            "fullName": "Chris Eubank",
             "homeTown": "Dulwich",
             "weight": 174,
             "height": "Middle",
@@ -99,6 +106,7 @@ angular.module("fighters")
         }, {
             "firstName": "Somluck",
             "lastName": "Kamsing",
+            "fullName": "Somluck Kamsing",
             "homeTown": "Thailand",
             "weight": "126 lbs",
             "height": "5ft 9in",

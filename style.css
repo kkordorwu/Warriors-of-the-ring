@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image:url("http://streetfighter.com/wp-content/uploads/2015/04/featured-homepage-smoke.jpg"); 
+    background-image:url("http://streetfighter.com/wp-content/uploads/2015/04/featured-homepage-smoke.jpg");
+    background-size: 100%;
 }
 
 .fighters {

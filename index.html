@@ -50,9 +50,10 @@
 			<!-- Used the target scope veriable created as a filter parameter. -->
 
 			<div class="fighters" ng-repeat="fighter in fighters | filter: target">
-
-				<p>First Name: {{ fighter.firstName }}</p>
-				<p>Last Name: {{ fighter.lastName }}</p>
+				
+				<!--<p>First Name: {{ fighter.firstName }}</p>
+				<p>Last Name: {{ fighter.lastName }}</p>-->
+				<p>{{ fighter.fullName }}</p>
 				<p>Home Town: {{ fighter.homeTown }}</p>
 				<p>Weight: {{ fighter.weight }}</p>
 				<p>Height: {{ fighter.height }}</p>
