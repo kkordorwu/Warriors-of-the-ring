@@ -16,9 +16,9 @@ angular.module("fighters")
 
         // Shows date alert once date is entered.
 
-        $scope.calendar = "NewFightDate";
+        $scope.calendar = "mm/dd/yyyy";
 
-        $scope.submitDate = function () {
+        $scope.createDate = function () {
             alert($scope.calendar);
 
         }
