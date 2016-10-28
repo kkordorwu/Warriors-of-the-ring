@@ -60,9 +60,11 @@
 				<p>Wins: {{ fighter.wins }}</p>
 				<p>Loses: {{ fighter.loses }}</p>
 
+
+
 				<!-- img ng-src is how I linked the image to the fighter-->
 
-				
+
 				<img class="fighterPicture" ng-src="{{ fighter.pictureLink }}">
 			</div>
 		</div>
@@ -90,18 +92,20 @@
 
 			<!-- Created a calendar where dates can be inputted-->
 
-			<input type="date" ng-model="calendar" />
+			<input type="date" ng-model="calendar">
 			<button ng-click="submitDate()">Submit</button>
 		</div>
 
 		<div class="col-md-4">
 			<h4>Videos</h4>
+			<iframe width="200" height="100" src="https://www.youtube.com/embed/hjOCfuB8W2U" frameborder="0" allowfullscreen></iframe>
 
-			
-			
+			<iframe width="200" height="100" src="https://www.youtube.com/embed/I8wIyrRPn-M?list=PLMqfaJY7EutbWVzf2iZ5eyLDOkCN92FN0"
+				frameborder="0" allowfullscreen></iframe>
+
+
 
 		</div>
-	</div>
 	</div>
 
 
