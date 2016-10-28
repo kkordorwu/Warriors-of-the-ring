@@ -25,7 +25,7 @@ angular.module("fighters")
         $scope.upDateCurrentFighter = function () {
             alert($scope.newLocation + $scope.newLbs + $scope.newStance);
 
-        //Make a copy of new info on the fighter. Then loop through the array to find that fighter using fighters id. 
+        //Makes a copy of the new info on the fighter. Then loops through the array to find that fighter using fighters id. 
         //Splicing out the original adding the new.
         //Splice takes 3 arrguments #1 index #2 how many from the index to get rid of. #3 is opitional and you have the ability.
         }
@@ -38,6 +38,9 @@ angular.module("fighters")
             alert($scope.calendar);
 
         }
+        $("h1").fadeIn(7000);
+
+        $("body").fadeIn(7000);
 
         // This how fighters are listed.
 
