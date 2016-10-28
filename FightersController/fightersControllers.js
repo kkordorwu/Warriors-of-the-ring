@@ -13,21 +13,21 @@ angular.module("fighters")
         $scope.updateFighter = function (fighter) {
             setthecurrentfighter
 
-        //Takes that fighters attribute and popluates them into the update form.
+            //Takes that fighters attribute and popluates them into the update form.
 
         }
 
         $scope.deleteFighter = function (fighter) {
 
-        //Sets the current fighter then loops through fighters array to set current fighter using an id. Once found it splices figther out off array.
+            //Sets the current fighter then loops through fighters array to set current fighter using an id. Once found it splices figther out off array.
         }
 
         $scope.upDateCurrentFighter = function () {
             alert($scope.newLocation + $scope.newLbs + $scope.newStance);
 
-        //Makes a copy of the new info on the fighter. Then loops through the array to find that fighter using fighters id. 
-        //Splicing out the original adding the new.
-        //Splice takes 3 arrguments #1 index #2 how many from the index to get rid of. #3 is opitional and you have the ability.
+            //Makes a copy of the new info on the fighter. Then loops through the array to find that fighter using fighters id. 
+            //Splicing out the original adding the new.
+            //Splice takes 3 arrguments #1 index #2 how many from the index to get rid of. #3 is opitional and you have the ability.
         }
 
         // Shows date in alert once date is entered.
