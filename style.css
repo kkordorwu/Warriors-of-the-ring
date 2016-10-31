@@ -4,17 +4,20 @@
 }
 
 body {
-    background-image:url("http://streetfighter.com/wp-content/uploads/2015/04/featured-homepage-smoke.jpg");
+    background-image: url("http://streetfighter.com/wp-content/uploads/2015/04/featured-homepage-smoke.jpg");
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .fighters {
     border: solid 1px #000;
     padding: 10px;
 }
+
 .fighterPicture {
-max-width:80px;
+    max-width: 80px;
 }
-.Videos{
-    border:solid 1px #000;
+
+.Videos {
+    border: solid 1px #000;
 }
